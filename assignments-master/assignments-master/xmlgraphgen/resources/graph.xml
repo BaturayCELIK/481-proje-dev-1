@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<graph title="A">
+  <node id="2000">
+      <label>aa</label>
+      <color>blue</color>
+      <weight>30</weight>
+  </node>
+  <node id="1000">
+      <weight>100</weight>
+      <label>b</label>
+      <color>black</color>
+  </node>
+  <node id="3000">
+      <weight>100</weight>
+      <label>c</label>
+      <color>purple</color>
+  </node>
+  <transition from="1000" to="2000">
+      <on>true</on>
+      <label>m1()</label>
+      <color>yellow</color>
+  </transition>
+  <transition from="3000" to="1000">
+      <on>false</on>
+      <label>m2()</label>
+      <color>black</color>
+  </transition>
+  <transition from="3000" to="2000">
+      <on>false</on>
+      <label>m3()</label>
+      <color>orange</color>
+  </transition>
+</graph>

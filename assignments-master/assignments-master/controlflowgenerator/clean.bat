@@ -1,0 +1,9 @@
+del *.class
+del Java8.interp
+del Java8.tokens
+del Java8BaseListener.Java
+del Java8Lexer.interp
+del Java8Lexer.tokens
+del Java8Listener.java
+del Java8Parser.java
+del Java8Lexer.java
